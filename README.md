@@ -22,7 +22,7 @@ In the image down below we can see that there are a number of tickets that are o
 
 ## Initial Response 
 
-As the IT Help Desk Support employee I greeted the user and acknowledge the request, since the user was newly onboarded, in the iamage down below you can see that the IT employee noted that they would need supervisor approval would be required before they can have access to the both drives 
+As the IT Help Desk Support employee I greeted the user and acknowledge the request, since the user was newly onboarded, in the image down below you can see that the IT employee noted that they would need supervisor approval would be required before they can have access to the both drives 
 
 ![Install Requests](./project2/solv1.8.png)
 
@@ -67,7 +67,7 @@ In Active Directory Users and Computers (ADUC):
 
   - Finance
 
-Added Bruce Wayne as a member of both groups
+You would also do the same process for the Finance security group and add bruce wayne as a memeber to that security group as well 
 
 
 ![Install Requests](./project2/solv1.4.png)
@@ -79,6 +79,8 @@ Added Bruce Wayne as a member of both groups
     - Modify access for Helpdesk, so the helpdesk technician , in this case me can have access to it from the helpdesk desktop instead of having to use the DC 
 
     - Modify access for Personal security group , which is the group where we added the user bwayne into
+ 
+    - You would also do the same thing for the Finance shared folder, but instead add the finance secuiryt group to it 
 
 
 
@@ -93,7 +95,10 @@ In Bruce Wayne’s profile settings (ADUC):
 
 - Mapped a Z: drive to \\Server2022\Personal\bwayne
 
-Now the next time he logs in he will have access to his persona drive 
+Now the next time he logs in he will have access to his personal drive 
+
+
+As for the finance drive  you would map it differenctly, you would need to connect remotely and created it from his PC , BY going to this PC ---> Map network drive and then type in \\Server2022\Finance --> and map it to the A: drive 
 
 
 ![Install Requests](./project2/solv1.6.png)
